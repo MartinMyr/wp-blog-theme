@@ -10,7 +10,7 @@ function johanna_enqueue_scripts() {
 	wp_deregister_script('jquery');
 
 	wp_enqueue_script('jQuery', get_template_directory_uri() . '/assets/vendors/jquery.min.js', array(), '3.3.1', true);
-	wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/vendors/bootstrap.bundle.js', array(), '4.3.1', true);
+	wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/vendors/bootstrap.min.js', array(), '4.3.1', true);
 
 }
 add_action('wp_enqueue_scripts', 'johanna_enqueue_scripts');
