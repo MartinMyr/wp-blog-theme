@@ -1,25 +1,28 @@
 header{
     background-color: rgb(255, 255, 255);
-    .col-12{
-        .navbar{
-            padding-left: 0;
-            padding-right: 0;
-            .container{
+    .row{
+        margin-bottom: 20px!important;
+        .col-12{
+            .navbar{
                 padding-left: 0;
                 padding-right: 0;
-                .navbar-toggler{
-
-                }
-                .collapse{
-                    justify-content: flex-end;
-                    .nav{
-                        .active{
-                            font-weight: bold;
-                        }
-                        a{
-                            color: rgb(0, 0, 0);
-                            &:hover{
-                                color: rgba(0, 0, 0, 0.705);
+                .container{
+                    padding-left: 0;
+                    padding-right: 0;
+                    .navbar-toggler{
+    
+                    }
+                    .collapse{
+                        justify-content: flex-end;
+                        .nav{
+                            .active{
+                                font-weight: bold;
+                            }
+                            a{
+                                color: rgb(0, 0, 0);
+                                &:hover{
+                                    color: rgba(0, 0, 0, 0.705);
+                                }
                             }
                         }
                     }
@@ -27,4 +30,5 @@ header{
             }
         }
     }
+   
 }
